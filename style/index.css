@@ -1,0 +1,57 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nosifer', cursive;
+
+  
+}
+.header{
+  font-size: 2rem;
+  color: red;
+  background: green;
+  border-bottom-style: dotted;
+  cursor: pointer;
+
+}
+
+#app {
+  text-align: center;
+  background-color: burlywood;
+  padding: 30px 0;
+}
+div{
+  display: grid;
+  grid-template-columns: repeat(aouto-fit, 1fr, 1fr, 1fr, 1fr);
+  column-gap: 1rem;
+}
+
+
+img {
+  height: 280PX;
+  width: 280px;
+  border-radius: 190px;
+  
+}
+
+.container {
+  width: 100%;
+  margin: 3em auto;
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 2em;
+ text-align: center;
+ background-color:wheat ;
+ padding: 50px 0;
+}
+h2{
+  font-size: 1rem;
+  font-weight: 900;
+}
+h2:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
